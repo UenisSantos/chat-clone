@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "55702686309",
+    "project_id": "clone-watsap",
+    "storage_bucket": "clone-watsap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:55702686309:android:c0b8a91610f3109bf6d48c",
+        "android_client_info": {
+          "package_name": "nathan.company.chatclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "55702686309-9ua6re5gvq9p3ik9re08t9t141rocm95.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nathan.company.chatclone",
+            "certificate_hash": "cf0d2bcdf8e2b3d7a24e1c49f5ba14f68c779acc"
+          }
+        },
+        {
+          "client_id": "55702686309-epsi9p37nk32v68cad1njhunujei35lk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSIZmfldFd4rx3pq70jNMuw8CQs7HICN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "55702686309-epsi9p37nk32v68cad1njhunujei35lk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
