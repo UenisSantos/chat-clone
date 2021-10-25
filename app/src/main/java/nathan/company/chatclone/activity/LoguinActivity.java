@@ -1,4 +1,4 @@
-package nathan.company.chatclone;
+package nathan.company.chatclone.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,7 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import nathan.company.chatclone.databinding.ActivityCadastoBinding;
+import nathan.company.chatclone.R;
+
 
 public class LoguinActivity extends AppCompatActivity {
 

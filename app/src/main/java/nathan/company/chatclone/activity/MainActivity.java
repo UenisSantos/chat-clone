@@ -1,8 +1,10 @@
-package nathan.company.chatclone;
+package nathan.company.chatclone.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import nathan.company.chatclone.R;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/purple_500"
-    tools:context=".cadastoActivity">
+    tools:context=".activity.cadastoActivity">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -33,6 +33,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/idNome"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/diga_teu_nome_vei"
@@ -52,6 +53,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout3">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/idEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/bote_aquele_email_massa_vá"
@@ -71,6 +73,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout4">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/idSenha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/se_lique_viu_aqui_sua_senha"
@@ -84,6 +87,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="82dp"
+        android:onClick="validarCadastroUsuario"
         android:text="@string/bor_que_ja_to_agoniado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
